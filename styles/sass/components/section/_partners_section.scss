@@ -1,0 +1,36 @@
+.partners_section {}
+
+.partners_section__container {}
+
+.partners_section__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #243f5f;
+}
+
+.partners_section__block {
+  margin: 70px 0;
+}
+
+.partners_section__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.partners_section__top_text {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #243f5f;
+}
+
+.partners_section__top_link {
+  margin-left: 30px;
+  color: #0092f6;
+  text-decoration: none;
+}
+

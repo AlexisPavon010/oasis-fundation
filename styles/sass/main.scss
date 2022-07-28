@@ -1,0 +1,44 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+@import "./base/reset";
+
+@import "./components/section/main_section";
+@import "./layout/container";
+@import "./components/button/button";
+
+//LAYOUT 
+@import "./layout/header";
+@import "./layout/footer";
+
+
+// NETWORK
+@import"./components/section/network_section";
+@import"./components/list/network_list";
+@import"./components/card/network_card";
+
+
+// INVOLVE
+@import"./components/section/involve_section";
+@import"./components/card/involve_card";
+@import"./components/list/involve_list";
+
+// TECNOLOGY
+@import"./components/section/technology_section";
+@import"./components/card/technology_card";
+
+// COMMUNITY
+@import "./components/section/community_section";
+@import "./components/list/community_list";
+@import "./components/card/community_card";
+
+// PARTNER
+@import "./components/section/partners_section";
+@import "./components/list/partners_list";
+@import "./components/card/partners_card.scss";
+
+// SOCIAL
+@import "./components/section/social_section";
+@import "./components/list/social_list";
+@import "./components/card/social_card";
+

@@ -1,0 +1,23 @@
+.partners_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners_card__img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.partners_card__img--small {
+  height: 36px;
+}
+
+.partners_card__img--medium {
+  height: 67px;
+}
+
+.partners_card__img--large {
+  height: 92px;
+}

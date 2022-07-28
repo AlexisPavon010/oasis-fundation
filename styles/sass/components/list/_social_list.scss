@@ -1,0 +1,15 @@
+.social_list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-items: center;
+
+  @include breakpoint(sm) {
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+
+}

@@ -1,0 +1,128 @@
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #eaf0f4;
+}
+
+.footer_container {}
+
+.footer_list {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.footer_card {
+  justify-self: start;
+}
+
+.footer_card__link {}
+
+.footer_card__image {
+  margin-bottom: 40px;
+}
+
+.footer_card__form {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer_card__text {
+  font-size: 13px;
+  margin-bottom: 14px;
+  color: #98a1ad;
+}
+
+.footer_card__input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  height: 38px;
+  margin-bottom: 10px;
+}
+
+.footer_card__button {
+  font-weight: 700;
+  background-color: #0092f6;
+  color: #fff;
+  max-width: 113px;
+  font-size: 16px;
+}
+
+.footer_card__input:focus-visible {
+  outline: 1px solid #3898ec;
+}
+
+.footer_card__title {
+  margin-bottom: 10px;
+  color: #8893a2;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer_card__list {}
+
+.footer_card__item {
+  margin-bottom: 4px;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #98a1ad;
+}
+
+.footer_social {
+  display: grid;
+  margin-top: 40px;
+  padding: 20px 0;
+  grid-template-columns: repeat(9, 1fr);
+  border-bottom: 1px solid rgba(152, 161, 173, .2);
+}
+
+.footer_social__img {
+  width: 44px;
+  height: 44px;
+}
+
+.footer_terms {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+
+  // flex-direction: row;
+  @include breakpoint(md) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+.footer_terms__rigth {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  color: #98a1ad;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 20px;
+
+  @include breakpoint(md) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.footer_terms__left {
+  color: #98a1ad;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+
+  @include breakpoint(sm) {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,27 @@
+.network_card {}
+
+.network_card__img {}
+
+.network_card__title {
+  color: #243f5f;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.network_card__subtitle {
+  margin-bottom: 58px;
+  font-weight: 300;
+  color: #243f5f;
+}
+
+
+.network_card__button {
+  padding: 8px 40px;
+  background-color: #0092f6;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+}
