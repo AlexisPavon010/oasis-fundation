@@ -1,0 +1,35 @@
+.community_section {}
+
+.community_section__divider {}
+
+.community_section__cointainer {
+  padding: 80px 20px;
+}
+
+.community_section__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  color: #243f5f;
+}
+
+.community_section__body {
+  grid-template-columns: 1fr;
+  gap: 60px;
+  display: grid;
+  max-width: 80%;
+
+  @include breakpoint(md) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+.community_section__left {}
+
+.community_section__description {
+  max-width: 477px;
+  font-family: Sulsans, sans-serif;
+  color: #243f5f;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "oasis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://alexispavon010.github.io/oasis/",
+  "scripts": {
+    "deployd":"gh-pages -d ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

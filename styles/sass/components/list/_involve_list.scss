@@ -1,0 +1,16 @@
+.involve_list {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+
+   @include breakpoint(sm) {
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include breakpoint(md) {
+    gap: 40px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+}

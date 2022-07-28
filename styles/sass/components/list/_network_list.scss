@@ -1,0 +1,8 @@
+.network_list {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(2, 1fr);
+  @include breakpoint(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
